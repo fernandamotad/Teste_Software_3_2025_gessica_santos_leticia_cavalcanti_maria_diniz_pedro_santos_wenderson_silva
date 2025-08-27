@@ -1,0 +1,9 @@
+    cal.x_first_of_month__mutmut_7: survived
+    cal.x_first_of_month__mutmut_12: survived
+    cal.x_first_of_month__mutmut_14: survived
+    cal.x_is_leap__mutmut_1: survived
+    cal.x_is_leap__mutmut_2: survived
+    cal.x_jan1__mutmut_2: survived
+    cal.x_jan1__mutmut_3: survived
+    cal.x_jan1__mutmut_13: survived
+    cal.x_cal__mutmut_8: survived
