@@ -1,0 +1,4 @@
+paths_to_mutate:
+  - cal.py
+tests_dir: .
+runner: pytest
