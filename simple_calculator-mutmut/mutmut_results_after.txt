@@ -1,0 +1,3 @@
+    simple_calculator.main.xǁSimpleCalculatorǁdiv__mutmut_4: survived
+    simple_calculator.meteorites.xǁMeteoriteStatsǁget_data__mutmut_1: no tests
+    simple_calculator.meteorites.xǁMeteoriteStatsǁget_data__mutmut_2: no tests

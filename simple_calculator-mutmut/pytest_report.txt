@@ -1,0 +1,40 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.11, pytest-8.4.1, pluggy-1.6.0 -- /work/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /work
+configfile: pytest.ini
+plugins: cov-6.2.1
+collecting ... collected 26 items
+
+tests/test_extra_calculator.py::test_div_normal PASSED                   [  3%]
+tests/test_extra_calculator.py::test_div_zero PASSED                     [  7%]
+tests/test_extra_calculator.py::test_avg_normal PASSED                   [ 11%]
+tests/test_extra_calculator.py::test_avg_single PASSED                   [ 15%]
+tests/test_extra_calculator.py::test_avg_empty PASSED                    [ 19%]
+tests/test_main.py::test_add_two_numbers PASSED                          [ 23%]
+tests/test_main.py::test_add_three_numbers PASSED                        [ 26%]
+tests/test_main.py::test_add_many_numbers PASSED                         [ 30%]
+tests/test_main.py::test_subtract_two_numbers PASSED                     [ 34%]
+tests/test_main.py::test_mul_two_numbers PASSED                          [ 38%]
+tests/test_main.py::test_mul_many_numbers PASSED                         [ 42%]
+tests/test_main.py::test_div_two_numbers_float PASSED                    [ 46%]
+tests/test_main.py::test_div_by_zero_returns_inf PASSED                  [ 50%]
+tests/test_main.py::test_mul_by_zero_raises_exception PASSED             [ 53%]
+tests/test_main.py::test_avg_correct_average PASSED                      [ 57%]
+tests/test_main.py::test_avg_removes_upper_outliers PASSED               [ 61%]
+tests/test_main.py::test_avg_removes_lower_outliers PASSED               [ 65%]
+tests/test_main.py::test_avg_upper_threshold_is_included PASSED          [ 69%]
+tests/test_main.py::test_avg_lower_threshold_is_included PASSED          [ 73%]
+tests/test_main.py::test_avg_empty_list PASSED                           [ 76%]
+tests/test_main.py::test_avg_manages_empty_list_after_outlier_removal PASSED [ 80%]
+tests/test_main.py::test_avg_manages_empty_list_before_outlier_removal PASSED [ 84%]
+tests/test_main.py::test_avg_manages_zero_value_lower_outlier PASSED     [ 88%]
+tests/test_main.py::test_avg_manages_zero_value_upper_outlier PASSED     [ 92%]
+tests/test_main.py::test_avg_accepts_generators PASSED                   [ 96%]
+tests/test_meteorites.py::test_average_mass PASSED                       [100%]
+
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.12.11-final-0 _______________
+
+Coverage HTML written to dir htmlcov
+============================== 26 passed in 1.36s ==============================

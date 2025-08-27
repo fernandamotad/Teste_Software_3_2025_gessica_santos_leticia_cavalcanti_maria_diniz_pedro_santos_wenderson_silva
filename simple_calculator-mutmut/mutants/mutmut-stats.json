@@ -1,0 +1,80 @@
+{
+    "tests_by_mangled_function_name": {
+        "simple_calculator.main.x\u01c1SimpleCalculator\u01c1div": [
+            "tests/test_extra_calculator.py::test_div_normal",
+            "tests/test_extra_calculator.py::test_div_negative",
+            "tests/test_main.py::test_div_by_zero_returns_inf",
+            "tests/test_main.py::test_div_two_numbers_float",
+            "tests/test_extra_calculator.py::test_div_zero"
+        ],
+        "simple_calculator.main.x\u01c1SimpleCalculator\u01c1avg": [
+            "tests/test_main.py::test_avg_upper_threshold_is_included",
+            "tests/test_extra_calculator.py::test_avg_negative_numbers",
+            "tests/test_extra_calculator.py::test_avg_respects_upper_threshold",
+            "tests/test_main.py::test_avg_manages_zero_value_upper_outlier",
+            "tests/test_extra_calculator.py::test_avg_single",
+            "tests/test_extra_calculator.py::test_avg_normal",
+            "tests/test_main.py::test_avg_empty_list",
+            "tests/test_main.py::test_avg_manages_empty_list_before_outlier_removal",
+            "tests/test_main.py::test_avg_removes_upper_outliers",
+            "tests/test_extra_calculator.py::test_avg_empty",
+            "tests/test_meteorites.py::test_average_mass",
+            "tests/test_main.py::test_avg_removes_lower_outliers",
+            "tests/test_main.py::test_avg_correct_average",
+            "tests/test_main.py::test_avg_accepts_generators",
+            "tests/test_extra_calculator.py::test_avg_mixed_numbers",
+            "tests/test_main.py::test_avg_lower_threshold_is_included",
+            "tests/test_main.py::test_avg_manages_empty_list_after_outlier_removal",
+            "tests/test_main.py::test_avg_manages_zero_value_lower_outlier"
+        ],
+        "simple_calculator.main.x\u01c1SimpleCalculator\u01c1add": [
+            "tests/test_main.py::test_add_three_numbers",
+            "tests/test_main.py::test_add_two_numbers",
+            "tests/test_main.py::test_add_many_numbers"
+        ],
+        "simple_calculator.main.x\u01c1SimpleCalculator\u01c1sub": [
+            "tests/test_main.py::test_subtract_two_numbers"
+        ],
+        "simple_calculator.main.x\u01c1SimpleCalculator\u01c1mul": [
+            "tests/test_main.py::test_mul_by_zero_raises_exception",
+            "tests/test_main.py::test_mul_two_numbers",
+            "tests/test_main.py::test_mul_many_numbers"
+        ],
+        "simple_calculator.meteorites.x\u01c1MeteoriteStats\u01c1average_mass": [
+            "tests/test_meteorites.py::test_average_mass"
+        ]
+    },
+    "duration_by_test": {
+        "tests/test_extra_calculator.py::test_div_normal": 0.00022661499951937003,
+        "tests/test_extra_calculator.py::test_div_zero": 0.00018311199983145343,
+        "tests/test_extra_calculator.py::test_div_negative": 0.0001981129998966935,
+        "tests/test_extra_calculator.py::test_avg_normal": 0.00019531299949449021,
+        "tests/test_extra_calculator.py::test_avg_single": 0.00021021399970777566,
+        "tests/test_extra_calculator.py::test_avg_empty": 0.00016211100046348292,
+        "tests/test_extra_calculator.py::test_avg_negative_numbers": 0.00019201299983251374,
+        "tests/test_extra_calculator.py::test_avg_mixed_numbers": 0.0002003130002776743,
+        "tests/test_extra_calculator.py::test_avg_respects_upper_threshold": 0.00016551099997741403,
+        "tests/test_main.py::test_add_two_numbers": 0.00015781000001879875,
+        "tests/test_main.py::test_add_three_numbers": 0.00014930999986972893,
+        "tests/test_main.py::test_add_many_numbers": 0.0001546100002087769,
+        "tests/test_main.py::test_subtract_two_numbers": 0.00015970999993442092,
+        "tests/test_main.py::test_mul_two_numbers": 0.00015411000003950903,
+        "tests/test_main.py::test_mul_many_numbers": 0.00015000900020822883,
+        "tests/test_main.py::test_div_two_numbers_float": 0.00014910999925632495,
+        "tests/test_main.py::test_div_by_zero_returns_inf": 0.00015701000029366696,
+        "tests/test_main.py::test_mul_by_zero_raises_exception": 0.00016861099993548123,
+        "tests/test_main.py::test_avg_correct_average": 0.0001523099999758415,
+        "tests/test_main.py::test_avg_removes_upper_outliers": 0.00015310999970097328,
+        "tests/test_main.py::test_avg_removes_lower_outliers": 0.0001858120003817021,
+        "tests/test_main.py::test_avg_upper_threshold_is_included": 0.00016141099968081107,
+        "tests/test_main.py::test_avg_lower_threshold_is_included": 0.0002632180003274698,
+        "tests/test_main.py::test_avg_empty_list": 0.0002148140001736465,
+        "tests/test_main.py::test_avg_manages_empty_list_after_outlier_removal": 0.00018841200017050141,
+        "tests/test_main.py::test_avg_manages_empty_list_before_outlier_removal": 0.00019021200023416895,
+        "tests/test_main.py::test_avg_manages_zero_value_lower_outlier": 0.0002199139998992905,
+        "tests/test_main.py::test_avg_manages_zero_value_upper_outlier": 0.00019291200078441761,
+        "tests/test_main.py::test_avg_accepts_generators": 0.0003292210003564833,
+        "tests/test_meteorites.py::test_average_mass": 0.00016441100069641834
+    },
+    "stats_time": 1.0987988
+}

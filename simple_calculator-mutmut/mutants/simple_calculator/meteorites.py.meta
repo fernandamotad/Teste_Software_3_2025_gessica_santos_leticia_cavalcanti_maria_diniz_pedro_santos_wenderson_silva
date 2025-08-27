@@ -1,0 +1,16 @@
+{
+    "exit_code_by_key": {
+        "simple_calculator.meteorites.x\u01c1MeteoriteStats\u01c1get_data__mutmut_1": 33,
+        "simple_calculator.meteorites.x\u01c1MeteoriteStats\u01c1get_data__mutmut_2": 33,
+        "simple_calculator.meteorites.x\u01c1MeteoriteStats\u01c1average_mass__mutmut_1": 1,
+        "simple_calculator.meteorites.x\u01c1MeteoriteStats\u01c1average_mass__mutmut_2": 1,
+        "simple_calculator.meteorites.x\u01c1MeteoriteStats\u01c1average_mass__mutmut_3": 1,
+        "simple_calculator.meteorites.x\u01c1MeteoriteStats\u01c1average_mass__mutmut_4": 1,
+        "simple_calculator.meteorites.x\u01c1MeteoriteStats\u01c1average_mass__mutmut_5": 1,
+        "simple_calculator.meteorites.x\u01c1MeteoriteStats\u01c1average_mass__mutmut_6": 1,
+        "simple_calculator.meteorites.x\u01c1MeteoriteStats\u01c1average_mass__mutmut_7": 1,
+        "simple_calculator.meteorites.x\u01c1MeteoriteStats\u01c1average_mass__mutmut_8": 1,
+        "simple_calculator.meteorites.x\u01c1MeteoriteStats\u01c1average_mass__mutmut_9": 1
+    },
+    "hash_by_function_name": {}
+}

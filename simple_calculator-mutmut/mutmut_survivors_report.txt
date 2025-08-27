@@ -1,0 +1,25 @@
+===== simple_calculator.main.xǁSimpleCalculatorǁdiv__mutmut_4 =====
+# simple_calculator.main.xǁSimpleCalculatorǁdiv__mutmut_4: survived
+--- simple_calculator/main.py
++++ simple_calculator/main.py
+@@ -2,4 +2,4 @@
+     try:
+         return a / b
+     except ZeroDivisionError:
+-        return float("inf")
++        return float("INF")
+
+===== simple_calculator.main.xǁSimpleCalculatorǁavg__mutmut_12 =====
+# simple_calculator.main.xǁSimpleCalculatorǁavg__mutmut_12: survived
+--- simple_calculator/main.py
++++ simple_calculator/main.py
+@@ -6,7 +6,7 @@
+         if lt is not None and number < lt:
+             continue
+         if ut is not None and number > ut:
+-            continue
++            break
+         count += 1
+         total += number
+ 
+
